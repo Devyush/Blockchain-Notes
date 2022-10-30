@@ -13,9 +13,7 @@ Apart from all the above-mentioned issues, the largest issue with the Internet i
 Most of the Internet Services are Client-Server based. It means that the service provider is the only server of all the received requests. Just like we, the Clients, are not sure about the Server, Servers are also not sure about who they are dealing with. For this reason, a lot of new techniques were created to identify correct clients from fake ones. Techniques like,
 * Two-factor authentication (OTP Pin on Mobile)
 * Biometrics - Knowing a person from features like fingerprint, retina, etc.
-* CAPTCHA - Tiny boxes of numbers are filled to prove that the client is not a software robot  
-
-**CAPTCHA (Completely Automated Public Turing Test for telling Computers and Humans Apart) -** It prevents malicious computer code from trying to access the server and therefore is termed as a preventive measure.  
+* CAPTCHA (Completely Automated Public Turing Test for telling Computers and Humans Apart) - Tiny boxes of numbers are filled to prove that the client is not a software robot. It prevents malicious computer code from trying to access the server and therefore is termed as a preventive measure.   
 
 Servers also use a Firewall to restrict the authorization & authentication of communication so that only intended clients are allowed to share information. This helps the Server in identifying legit clients even before any confidential information is shared. If any other malicious client tries to communicate, the server simply ignores it or as the name suggests, burns the message.  
 The techniques mentioned till now take care of the Client Identification only. Server Identification can be done by Trusted Certificates placed on it but there is no check for it. Also, if a Server is attacked by a hacker, all information is at stake.
